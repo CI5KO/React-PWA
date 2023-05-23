@@ -1,6 +1,15 @@
 ## React PWA Project test
 
-This is a simple React App to test PWA in newest versions
+This is a test project to combine the next topics in one project!
+
+- React
+- TypeScript
+- Tailwind CSS
+- Webpack
+- PWA
+- Micro Services
+- Hexagonal Architecture
+- Docker
 
 ## Getting started
 
