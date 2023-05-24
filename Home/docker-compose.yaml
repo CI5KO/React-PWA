@@ -1,7 +1,7 @@
 version: '3'
 services:
   Home:
-    container_name: Home
+    container_name: home
     build:
       context: .
       dockerfile: Dockerfile

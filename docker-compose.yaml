@@ -1,13 +1,15 @@
 version: '3.1'
 
 services:
-  Home:
-    container_name: Home
-    build: ./Home
-    ports:
-      - '3000:3000'
-  Users-Front:
-    container_name: Users-Front
+  users-front:
+    container_name: users-front
     build: ./Users-Front
     ports:
       - '3002:3002'
+  home:
+    container_name: home
+    build: ./Home
+    ports:
+      - '3000:3000'
+    depends_on:
+      - users-front
